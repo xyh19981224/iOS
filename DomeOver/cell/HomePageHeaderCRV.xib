@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR" customClass="HomePageHeaderCRV" customModule="DomeOver" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sMF-rI-NND">
+                    <rect key="frame" x="13" y="0.0" width="294" height="50"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="trailing" secondItem="sMF-rI-NND" secondAttribute="trailing" constant="13" id="J9V-m6-hjD"/>
+                <constraint firstItem="sMF-rI-NND" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="RB5-JP-2pM"/>
+                <constraint firstItem="sMF-rI-NND" firstAttribute="leading" secondItem="VXr-Tz-HHm" secondAttribute="leading" constant="13" id="YNn-rf-QQE"/>
+                <constraint firstItem="sMF-rI-NND" firstAttribute="bottom" secondItem="VXr-Tz-HHm" secondAttribute="bottom" id="azd-Se-9bF"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="VXr-Tz-HHm"/>
+            <connections>
+                <outlet property="HeaderTxt" destination="sMF-rI-NND" id="a7e-u2-uNa"/>
+            </connections>
+            <point key="canvasLocation" x="53.623188405797109" y="131.91964285714286"/>
+        </collectionReusableView>
+    </objects>
+</document>
