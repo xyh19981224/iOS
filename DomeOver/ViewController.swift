@@ -57,7 +57,18 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         zhu.register(UINib(nibName: "HomePageHeaderCRV", bundle: nil), forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: headerID)
         
         // 配置collectionview的布局类型
-        let layout = UICollectionViewLayout.init()
+        let layout = UICollectionViewFlowLayout.init()
+        // 设置cell的大小
+        layout.itemSize = CGSize.init(width: 100, height: 100)
+        // 设置 滚动方向
+        layout.scrollDirection = .vertical
+        //每个item 之间的最小间距
+        layout.minimumInteritemSpacing = 0
+        // 每行之间最小的间距
+        layout.minimumLineSpacing = 0
+        
+        
+        self.zhu.collectionViewLayout = layout
         
         
         
