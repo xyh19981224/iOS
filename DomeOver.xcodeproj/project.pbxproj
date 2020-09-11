@@ -20,6 +20,7 @@
 		77AD7B0F2508B20000A4C79A /* HomePageCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77AD7B0D2508B20000A4C79A /* HomePageCVC.xib */; };
 		77AD7B122508D73A00A4C79A /* HomePageHeaderCRV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AD7B102508D73A00A4C79A /* HomePageHeaderCRV.swift */; };
 		77AD7B132508D73A00A4C79A /* HomePageHeaderCRV.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77AD7B112508D73A00A4C79A /* HomePageHeaderCRV.xib */; };
+		77D695E7250B0BD500EE0D06 /* aaaTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D695E6250B0BD500EE0D06 /* aaaTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		77AD7B0D2508B20000A4C79A /* HomePageCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePageCVC.xib; sourceTree = "<group>"; };
 		77AD7B102508D73A00A4C79A /* HomePageHeaderCRV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageHeaderCRV.swift; sourceTree = "<group>"; };
 		77AD7B112508D73A00A4C79A /* HomePageHeaderCRV.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePageHeaderCRV.xib; sourceTree = "<group>"; };
+		77D695E6250B0BD500EE0D06 /* aaaTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aaaTVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				77AD7AE52508695A00A4C79A /* LaunchScreen.storyboard */,
 				77AD7AE82508695A00A4C79A /* Info.plist */,
 				77AD7AE02508695600A4C79A /* DomeOver.xcdatamodeld */,
+				77D695E6250B0BD500EE0D06 /* aaaTVC.swift */,
 			);
 			path = DomeOver;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77D695E7250B0BD500EE0D06 /* aaaTVC.swift in Sources */,
 				77AD7ADC2508695500A4C79A /* ViewController.swift in Sources */,
 				77AD7AD82508695500A4C79A /* AppDelegate.swift in Sources */,
 				77AD7B122508D73A00A4C79A /* HomePageHeaderCRV.swift in Sources */,
