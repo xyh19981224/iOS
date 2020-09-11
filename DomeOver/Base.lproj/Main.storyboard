@@ -44,10 +44,10 @@
             </objects>
             <point key="canvasLocation" x="130.43478260869566" y="115.84821428571428"/>
         </scene>
-        <!--View Controller-->
+        <!--AaaV Controller-->
         <scene sceneID="dRR-v2-QWP">
             <objects>
-                <viewController id="ov4-d9-Xln" sceneMemberID="viewController">
+                <viewController id="ov4-d9-Xln" customClass="aaaVController" customModule="DomeOver" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8Gj-Vo-tKq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -66,6 +66,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="TZl-er-crC"/>
                     </view>
+                    <connections>
+                        <outlet property="LieBiao" destination="Big-Ku-Rdn" id="T76-dW-thd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sQH-f4-h6F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

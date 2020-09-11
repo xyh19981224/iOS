@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,7 +20,10 @@
 		77AD7B0F2508B20000A4C79A /* HomePageCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77AD7B0D2508B20000A4C79A /* HomePageCVC.xib */; };
 		77AD7B122508D73A00A4C79A /* HomePageHeaderCRV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AD7B102508D73A00A4C79A /* HomePageHeaderCRV.swift */; };
 		77AD7B132508D73A00A4C79A /* HomePageHeaderCRV.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77AD7B112508D73A00A4C79A /* HomePageHeaderCRV.xib */; };
-		77D695E7250B0BD500EE0D06 /* aaaTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D695E6250B0BD500EE0D06 /* aaaTVC.swift */; };
+		77D695EB250B1F9C00EE0D06 /* aaaTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D695E9250B1F9C00EE0D06 /* aaaTVCell.swift */; };
+		77D695EC250B1F9C00EE0D06 /* aaaTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77D695EA250B1F9C00EE0D06 /* aaaTVCell.xib */; };
+		77D695F0250B230100EE0D06 /* aaaVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D695EF250B230100EE0D06 /* aaaVController.swift */; };
+		A7FD80BC9825235C6D189399 /* Pods_DomeOver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1D88B52893C53F287652B6 /* Pods_DomeOver.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B660B567A63DE92245D02BB /* Pods-DomeOver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DomeOver.debug.xcconfig"; path = "Target Support Files/Pods-DomeOver/Pods-DomeOver.debug.xcconfig"; sourceTree = "<group>"; };
+		5E805C25EA81E9E23BE9A343 /* Pods-DomeOver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DomeOver.release.xcconfig"; path = "Target Support Files/Pods-DomeOver/Pods-DomeOver.release.xcconfig"; sourceTree = "<group>"; };
 		77AD7AD42508695500A4C79A /* DomeOver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DomeOver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77AD7AD72508695500A4C79A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77AD7AD92508695500A4C79A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,7 +65,10 @@
 		77AD7B0D2508B20000A4C79A /* HomePageCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePageCVC.xib; sourceTree = "<group>"; };
 		77AD7B102508D73A00A4C79A /* HomePageHeaderCRV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageHeaderCRV.swift; sourceTree = "<group>"; };
 		77AD7B112508D73A00A4C79A /* HomePageHeaderCRV.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePageHeaderCRV.xib; sourceTree = "<group>"; };
-		77D695E6250B0BD500EE0D06 /* aaaTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aaaTVC.swift; sourceTree = "<group>"; };
+		77D695E9250B1F9C00EE0D06 /* aaaTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aaaTVCell.swift; sourceTree = "<group>"; };
+		77D695EA250B1F9C00EE0D06 /* aaaTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = aaaTVCell.xib; sourceTree = "<group>"; };
+		77D695EF250B230100EE0D06 /* aaaVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aaaVController.swift; sourceTree = "<group>"; };
+		FC1D88B52893C53F287652B6 /* Pods_DomeOver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DomeOver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7FD80BC9825235C6D189399 /* Pods_DomeOver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +104,8 @@
 				77AD7AF02508695A00A4C79A /* DomeOverTests */,
 				77AD7AFB2508695B00A4C79A /* DomeOverUITests */,
 				77AD7AD52508695500A4C79A /* Products */,
+				D17ACA346888B889F118A7BA /* Pods */,
+				E0A0435AC753D66CF232A67E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,7 +122,7 @@
 		77AD7AD62508695500A4C79A /* DomeOver */ = {
 			isa = PBXGroup;
 			children = (
-				77AD7B0B2508B1A600A4C79A /* cell */,
+				77D695F2250B5DE200EE0D06 /* Cell */,
 				77AD7AD72508695500A4C79A /* AppDelegate.swift */,
 				77AD7AD92508695500A4C79A /* SceneDelegate.swift */,
 				77AD7ADB2508695500A4C79A /* ViewController.swift */,
@@ -120,7 +131,7 @@
 				77AD7AE52508695A00A4C79A /* LaunchScreen.storyboard */,
 				77AD7AE82508695A00A4C79A /* Info.plist */,
 				77AD7AE02508695600A4C79A /* DomeOver.xcdatamodeld */,
-				77D695E6250B0BD500EE0D06 /* aaaTVC.swift */,
+				77D695EF250B230100EE0D06 /* aaaVController.swift */,
 			);
 			path = DomeOver;
 			sourceTree = "<group>";
@@ -143,7 +154,7 @@
 			path = DomeOverUITests;
 			sourceTree = "<group>";
 		};
-		77AD7B0B2508B1A600A4C79A /* cell */ = {
+		77AD7B0B2508B1A600A4C79A /* HomePageCell */ = {
 			isa = PBXGroup;
 			children = (
 				77AD7B0C2508B20000A4C79A /* HomePageCVC.swift */,
@@ -151,7 +162,42 @@
 				77AD7B102508D73A00A4C79A /* HomePageHeaderCRV.swift */,
 				77AD7B112508D73A00A4C79A /* HomePageHeaderCRV.xib */,
 			);
-			path = cell;
+			path = HomePageCell;
+			sourceTree = "<group>";
+		};
+		77D695E8250B1F5D00EE0D06 /* aaaCell */ = {
+			isa = PBXGroup;
+			children = (
+				77D695E9250B1F9C00EE0D06 /* aaaTVCell.swift */,
+				77D695EA250B1F9C00EE0D06 /* aaaTVCell.xib */,
+			);
+			path = aaaCell;
+			sourceTree = "<group>";
+		};
+		77D695F2250B5DE200EE0D06 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				77AD7B0B2508B1A600A4C79A /* HomePageCell */,
+				77D695E8250B1F5D00EE0D06 /* aaaCell */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D17ACA346888B889F118A7BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B660B567A63DE92245D02BB /* Pods-DomeOver.debug.xcconfig */,
+				5E805C25EA81E9E23BE9A343 /* Pods-DomeOver.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E0A0435AC753D66CF232A67E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC1D88B52893C53F287652B6 /* Pods_DomeOver.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77AD7B012508695B00A4C79A /* Build configuration list for PBXNativeTarget "DomeOver" */;
 			buildPhases = (
+				608351F8D7EA4E5764D665AA /* [CP] Check Pods Manifest.lock */,
 				77AD7AD02508695500A4C79A /* Sources */,
 				77AD7AD12508695500A4C79A /* Frameworks */,
 				77AD7AD22508695500A4C79A /* Resources */,
+				593BDFE8FE277342444067A1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -263,6 +311,7 @@
 				77AD7AE42508695A00A4C79A /* Assets.xcassets in Resources */,
 				77AD7B0F2508B20000A4C79A /* HomePageCVC.xib in Resources */,
 				77AD7ADF2508695600A4C79A /* Main.storyboard in Resources */,
+				77D695EC250B1F9C00EE0D06 /* aaaTVCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,18 +331,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		593BDFE8FE277342444067A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DomeOver/Pods-DomeOver-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DomeOver/Pods-DomeOver-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DomeOver/Pods-DomeOver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		608351F8D7EA4E5764D665AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DomeOver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		77AD7AD02508695500A4C79A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77D695E7250B0BD500EE0D06 /* aaaTVC.swift in Sources */,
 				77AD7ADC2508695500A4C79A /* ViewController.swift in Sources */,
 				77AD7AD82508695500A4C79A /* AppDelegate.swift in Sources */,
 				77AD7B122508D73A00A4C79A /* HomePageHeaderCRV.swift in Sources */,
 				77AD7AE22508695600A4C79A /* DomeOver.xcdatamodeld in Sources */,
+				77D695F0250B230100EE0D06 /* aaaVController.swift in Sources */,
 				77AD7ADA2508695500A4C79A /* SceneDelegate.swift in Sources */,
 				77AD7B0E2508B20000A4C79A /* HomePageCVC.swift in Sources */,
+				77D695EB250B1F9C00EE0D06 /* aaaTVCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +556,7 @@
 		};
 		77AD7B022508695B00A4C79A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B660B567A63DE92245D02BB /* Pods-DomeOver.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -482,6 +575,7 @@
 		};
 		77AD7B032508695B00A4C79A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E805C25EA81E9E23BE9A343 /* Pods-DomeOver.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

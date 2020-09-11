@@ -1,0 +1,6 @@
+framework module Pods_DomeOver {
+  umbrella header "Pods-DomeOver-umbrella.h"
+
+  export *
+  module * { export * }
+}
