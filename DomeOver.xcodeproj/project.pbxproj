@@ -122,16 +122,15 @@
 		77AD7AD62508695500A4C79A /* DomeOver */ = {
 			isa = PBXGroup;
 			children = (
+				77D695F4250B655A00EE0D06 /* mode */,
+				77D695F3250B5E9700EE0D06 /* View */,
 				77D695F2250B5DE200EE0D06 /* Cell */,
 				77AD7AD72508695500A4C79A /* AppDelegate.swift */,
 				77AD7AD92508695500A4C79A /* SceneDelegate.swift */,
-				77AD7ADB2508695500A4C79A /* ViewController.swift */,
-				77AD7ADD2508695500A4C79A /* Main.storyboard */,
 				77AD7AE32508695A00A4C79A /* Assets.xcassets */,
 				77AD7AE52508695A00A4C79A /* LaunchScreen.storyboard */,
 				77AD7AE82508695A00A4C79A /* Info.plist */,
 				77AD7AE02508695600A4C79A /* DomeOver.xcdatamodeld */,
-				77D695EF250B230100EE0D06 /* aaaVController.swift */,
 			);
 			path = DomeOver;
 			sourceTree = "<group>";
@@ -181,6 +180,23 @@
 				77D695E8250B1F5D00EE0D06 /* aaaCell */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		77D695F3250B5E9700EE0D06 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77AD7ADB2508695500A4C79A /* ViewController.swift */,
+				77AD7ADD2508695500A4C79A /* Main.storyboard */,
+				77D695EF250B230100EE0D06 /* aaaVController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77D695F4250B655A00EE0D06 /* mode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = mode;
 			sourceTree = "<group>";
 		};
 		D17ACA346888B889F118A7BA /* Pods */ = {

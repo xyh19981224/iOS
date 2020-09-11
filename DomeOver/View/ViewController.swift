@@ -54,6 +54,16 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     //  设置点击事件
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print("\(indexPath.row)")
+        
+        collectionView.deselectItem(at: indexPath, animated: false)
+        
+        let bc = UIStoryboard(name: "Main", bundle: nil)
+        let des = bc.instantiateViewController(withIdentifier: "aaaVController") as! aaaVController
+        //des.hidesBottomBarWhenPushed = true
+        //des.navigationItem.backBarButtonItem?.title = "ddd"
+        self.navigationController?.pushViewController(des, animated: true)
+
+        
     }
     
     
