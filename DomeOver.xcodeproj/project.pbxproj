@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7716FA96250F65CE00739252 /* bbbVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7716FA95250F65CE00739252 /* bbbVController.swift */; };
 		77AD7AD82508695500A4C79A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AD7AD72508695500A4C79A /* AppDelegate.swift */; };
 		77AD7ADA2508695500A4C79A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AD7AD92508695500A4C79A /* SceneDelegate.swift */; };
 		77AD7ADC2508695500A4C79A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AD7ADB2508695500A4C79A /* ViewController.swift */; };
@@ -46,6 +47,7 @@
 /* Begin PBXFileReference section */
 		4B660B567A63DE92245D02BB /* Pods-DomeOver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DomeOver.debug.xcconfig"; path = "Target Support Files/Pods-DomeOver/Pods-DomeOver.debug.xcconfig"; sourceTree = "<group>"; };
 		5E805C25EA81E9E23BE9A343 /* Pods-DomeOver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DomeOver.release.xcconfig"; path = "Target Support Files/Pods-DomeOver/Pods-DomeOver.release.xcconfig"; sourceTree = "<group>"; };
+		7716FA95250F65CE00739252 /* bbbVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bbbVController.swift; sourceTree = "<group>"; };
 		77AD7AD42508695500A4C79A /* DomeOver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DomeOver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77AD7AD72508695500A4C79A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77AD7AD92508695500A4C79A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				77AD7ADB2508695500A4C79A /* ViewController.swift */,
 				77AD7ADD2508695500A4C79A /* Main.storyboard */,
 				77D695EF250B230100EE0D06 /* aaaVController.swift */,
+				7716FA95250F65CE00739252 /* bbbVController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -400,6 +403,7 @@
 				77AD7AE22508695600A4C79A /* DomeOver.xcdatamodeld in Sources */,
 				77D695F0250B230100EE0D06 /* aaaVController.swift in Sources */,
 				77AD7ADA2508695500A4C79A /* SceneDelegate.swift in Sources */,
+				7716FA96250F65CE00739252 /* bbbVController.swift in Sources */,
 				77AD7B0E2508B20000A4C79A /* HomePageCVC.swift in Sources */,
 				77D695EB250B1F9C00EE0D06 /* aaaTVCell.swift in Sources */,
 			);

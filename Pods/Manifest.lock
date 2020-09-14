@@ -1,16 +1,20 @@
 PODS:
   - ESPullToRefresh (2.9.3)
+  - JXSegmentedView (1.2.7)
 
 DEPENDENCIES:
   - ESPullToRefresh
+  - JXSegmentedView
 
 SPEC REPOS:
   trunk:
     - ESPullToRefresh
+    - JXSegmentedView
 
 SPEC CHECKSUMS:
   ESPullToRefresh: 0d68daa602b343c81753a1b95e09fd0bfcddfd40
+  JXSegmentedView: eb1cad21f57c2543c00c3e08b8fd3c7ca54f5acd
 
-PODFILE CHECKSUM: c16cab1d7f56405534b00391e8eb9b9d5d315677
+PODFILE CHECKSUM: 4325a48189a71890e8acfd9abc4d172b7231e350
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.9.3

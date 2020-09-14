@@ -59,7 +59,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-481" y="333"/>
+            <point key="canvasLocation" x="-612" y="333"/>
         </scene>
         <!--AaaV Controller-->
         <scene sceneID="dRR-v2-QWP">
@@ -89,7 +89,22 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sQH-f4-h6F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1228" y="116"/>
+            <point key="canvasLocation" x="222" y="333"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yzv-HE-deS">
+            <objects>
+                <viewController id="5WG-kH-Uqk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q1z-w6-Fd8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="mEa-si-PiZ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oLB-1k-9bz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="961" y="333"/>
         </scene>
     </scenes>
 </document>

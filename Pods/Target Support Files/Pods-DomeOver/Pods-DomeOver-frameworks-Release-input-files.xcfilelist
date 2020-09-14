@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-DomeOver/Pods-DomeOver-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/ESPullToRefresh/ESPullToRefresh.framework
+${BUILT_PRODUCTS_DIR}/JXSegmentedView/JXSegmentedView.framework
