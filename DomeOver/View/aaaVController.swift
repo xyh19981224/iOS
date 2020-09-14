@@ -33,14 +33,19 @@ class aaaVController: UIViewController, UITableViewDelegate, UITableViewDataSour
         LieBiao.delegate = self
         LieBiao.dataSource = self
         
+        // 设置列表底部显示
+        LieBiao.tableFooterView = UIView()
+        //LieBiao.tableHeaderView = UIView()
+        
         // nib注册
         let nib1 = UINib(nibName: "aaaTVCell", bundle: nil)
         LieBiao.register(nib1, forCellReuseIdentifier: cellID)
         
         // 导航栏设置
         navigationItem.title = "xiayunqing"
-        navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "返回"), style: .plain, target: self, action: #selector(back))
         
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "返回"), style: .plain, target: self, action: #selector(back))
+        //navigationItem.leftBarButtonItem?.width = CGFloat(30)
         // 下拉刷新
         LieBiao.es.addPullToRefresh {
             [unowned self] in
